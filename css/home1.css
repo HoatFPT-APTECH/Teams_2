@@ -272,6 +272,9 @@ figcaption{
     float: right;
     transform: translate(0px,10px);
 }
+.nhuongquyen{
+    margin-top:150px;
+}
 .mohinhnhuongquyen{
     width: 600px;
     height: 328px;
@@ -344,6 +347,7 @@ figcaption{
      color: white;
      font-size: 16px;
      overflow: hidden;
+     margin-top:30px;
  }
  .introduce{
      background-color: black;

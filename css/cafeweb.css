@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto",sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.25;
+    color: #f1f1f1;
+    text-align: justify;
+    background-image: url("../images/nhuongquyen3.jpg");
+    background-color: #f1f1f1;
+
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+    color: #21759b;
+    padding: 30px;
+    margin-top: 50px;
+}
+h2{
+    font-size:25px ;
+    line-height: 1.25;
+    color: red;
+    text-align: left;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 30px;
+    float: left;
+    padding: 50px;
+    background-color: #f1f1f1;
+    color: #222222;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px black;
+}
+.anhlogo{
+    float: left;
+}
+.Startup{
+    float: left;
+}
+.cuahang{
+    float: right;
+}

@@ -207,7 +207,7 @@ figcaption{
 }
  .danhmuc{
      width:900px;
-     height: 600px;
+     height:700px;
      margin: 0 auto;
  }
 .foot{
@@ -271,9 +271,6 @@ figcaption{
 .muado{
     float: right;
     transform: translate(0px,10px);
-}
-.nhuongquyen{
-    margin-top:150px;
 }
 .mohinhnhuongquyen{
     width: 600px;

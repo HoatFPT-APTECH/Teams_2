@@ -58,23 +58,6 @@
                     <span class="dot" onclick="currentSlide(2)"></span>
                     <span class="dot" onclick="currentSlide(3)"></span>
                 </div>
-                <script type="text/javascript">
-                    var slideIndex = 0;
-                    showSlides();
-
-                    function showSlides() {
-                        var i;
-                        var slides = document.getElementsByClassName("mySlides");
-                        for (i = 0; i < slides.length; i++) {
-                            slides[i].style.display = "none";
-                        }
-                        slideIndex++;
-                        if (slideIndex > slides.length) {slideIndex = 1}
-                        slides[slideIndex-1].style.display = "block";
-                        setTimeout(showSlides,5000); // Change image every 2 seconds
-                    }
-
-                </script>
                 <!-- END SLIDE-->
             </div>
             <div class="anh">
@@ -99,14 +82,14 @@
                 </p>
                 <div class="nav">
                 <ul>
-                    <li class="foot">
-                        <a href="#">
+                    <li class="foot" onmouseenter="mo(1)">
+                        <a>
                             <img src="images/ngoisao.png"/><br>
                             Đang được yêu <br/>thích
                         </a>
                     </li>
                     <li class="foot">
-                        <a href="#">
+                        <a >
                             <img src="images/coc.png"/>
                             <br> CAFE
                         </a>
@@ -335,6 +318,78 @@
                     </ul>
                     <ul class="p3">
 
+                        <li class="chon">
+                            <div class="block_foot">
+                                <a href="buy.html">
+                                    <img src="images/Menu_MonKhac/cf-da-xay.jpg"  style="height:100px;width:142px" />
+                                    <p>
+                                        Cafe đá xay<br/>
+                                        Giá: 15.000 đ<br/>
+                                        <img src="images/muado.png" class="muado"/>
+                                    </p>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="chon">
+                            <div class="block_foot">
+                                <a href="buy.html">
+                                    <img src="images/Menu_MonKhac/chanh-sa-da-xay.jpg"  style="height:100px;width:142px" />
+                                    <p>
+                                        Chanh Sả đá xay<br/>
+                                        Giá: 25.000 đ<br/>
+                                        <img src="images/muado.png" class="muado"/>
+                                    </p>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="chon">
+                            <div class="block_foot">
+                                <a href="buy.html">
+                                    <img src="images/Menu_MonKhac/chocolate-da.jpg"  style="height:100px;width:142px" />
+                                    <p>
+                                        Chocolate đá<br/>
+                                        Giá: 15.000 đ<br/>
+                                        <img src="images/muado.png" class="muado"/>
+                                    </p>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="chon">
+                            <div class="block_foot">
+                                <a href="buy.html">
+                                    <img src="images/Menu_MonKhac/chocolate-ice-blended.jpg"  style="height:100px;width:142px" />
+                                    <p>
+                                        Chocolate Ice Blend<br/>
+                                        Giá: 15.000 đ<br/>
+                                        <img src="images/muado.png" class="muado"/>
+                                    </p>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="chon">
+                            <div class="block_foot">
+                                <a href="buy.html">
+                                    <img src="images/Menu_MonKhac/chocolatenong.jpg"  style="height:100px;width:142px" />
+                                    <p>
+                                        Chocolate nóng<br/>
+                                        Giá: 15.000 đ<br/>
+                                        <img src="images/muado.png" class="muado"/>
+                                    </p>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="chon">
+                            <div class="block_foot">
+                                <a href="buy.html">
+                                    <img src="images/Menu_MonKhac/daovietquat.jpg"  style="height:100px;width:142px" />
+                                    <p>
+                                       Đào việt quất<br/>
+                                        Giá: 15.000 đ<br/>
+                                        <img src="images/muado.png" class="muado"/>
+                                    </p>
+                                </a>
+                            </div>
+                        </li>
                     </ul>
                     <ul class="p4">
 
@@ -455,5 +510,6 @@
         </div>
     </div>
 </footer>
+<script type="text/javascript" src="js/home.js"></script>
 </body>
 </html>

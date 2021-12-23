@@ -11,7 +11,7 @@ function showSlides() {
     slideIndex++;
     if (slideIndex > slides.length) {slideIndex = 1}
     slides[slideIndex-1].style.display = "block";
-    setTimeout(showSlides,4000); // Change image every 5 seconds
+    setTimeout(showSlides,5000); // Change image every 5 seconds
 }
 function mo(a){
     var m=document.getElementsByClassName("drink")

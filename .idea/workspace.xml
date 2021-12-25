@@ -5,8 +5,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HOME_NEW.html" beforeDir="false" afterPath="$PROJECT_DIR$/HOME_NEW.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/HOME_NEW.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/HOME_NEW.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/NEW/underlight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/HOME-NEW.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/HOME-NEW.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/NEW/home-1-slider-image-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/NEW/home-1-slider-image-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/NEW/home-1-slider-image-3.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +76,8 @@
       <workItem from="1640342497384" duration="11000" />
       <workItem from="1640349819512" duration="13086000" />
       <workItem from="1640365226940" duration="22000" />
-      <workItem from="1640395331935" duration="10959000" />
+      <workItem from="1640395331935" duration="11135000" />
+      <workItem from="1640409067119" duration="13004000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <created>1639886023543</created>
@@ -182,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640365238710</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Update">
+      <created>1640406566565</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1640406566565</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

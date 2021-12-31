@@ -4,8 +4,8 @@
     <list default="true" id="8371cb61-2ae9-4fb3-8266-4dcc70f6059b" name="Changes" comment="Update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HOME_NEW.html" beforeDir="false" afterPath="$PROJECT_DIR$/HOME_NEW.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/HOME_NEW.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/HOME_NEW.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webdangnhap.html" beforeDir="false" afterPath="$PROJECT_DIR$/webdangnhap.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafeweb.html" beforeDir="false" afterPath="$PROJECT_DIR$/cafeweb.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/cafeweb.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/cafeweb.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +23,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />

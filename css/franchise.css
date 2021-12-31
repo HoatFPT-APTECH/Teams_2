@@ -1,6 +1,8 @@
 * {
     box-sizing: border-box;
     padding: 0;
+    margin: 0;
+    font-family: 'Marcellus', serif;
 }
 a{
     text-decoration: none;
@@ -14,39 +16,40 @@ a{
     z-index: 2;
 }
 header{
-    background-color:#54280e;
-    color: white;
-    margin: 0 auto;
     width: 100%;
-    height: 110px;
-    transform: translate(0px,-7px);
-    position: fixed;
+    height: 100%;
+    font-weight: bold;
+}
+.logo{
+    width: 141px;
+    height:66px;
+    float: left;
+    padding-left: 30px;
     z-index: 2;
+    position: relative;
+}
+.nav{
+    width: 800px;
+    height: 40px;
+    float: right;
+    padding-top: 40px;
+    position: relative;
+    z-index: 2;
+}
+.nav ul li {
+    float: left;
+    padding-left: 40px;
 }
 .top{
     float: left;
     font-weight: 600;
     transform: translate(0px,-17px);
 }
-.top-header{
-    list-style: none;
-    float:left;
-    margin: 20px 50px;
-    color: black;
-    line-height: 70px;
-}
-.header a{
-    color: white;
-    text-decoration: none;
-}
+
 img{
     max-width: 80%;
 }
-.iconlienlac{
-    list-style: none;
-    float: right;
-    margin: 30px 0 20px 20px;
-}
+
 figure{
     padding-right: 50px;
 }
@@ -60,7 +63,7 @@ figcaption {
     float:left;
 }
 .sidebar{
-    margin-top: 100px;
+    margin-top: 90px;
     transform: translate(0px,0px);
 }
 .rightbar{
@@ -68,7 +71,7 @@ figcaption {
     height: 390px;
     opacity: 100%;
     float:right;
-    padding: 22px;
+    padding: 10px;
     background-color:initial;
 }
 .rbcontain{
@@ -105,14 +108,26 @@ h2 ,p{
 }
 .form{
     color: aliceblue;
+    margin-right: 200px;
 }
 input[type=text]{
     width: 35%;
     padding: 12px 20px;
-    margin: 8px 0;
+    margin: 8.5px 0;
     box-sizing: border-box;
     border: 2px solid #996633;
-    border-radius: 4px;
+    border-radius: 10px;
+    -webkit-transition: 0.5s;
+    transition: 0.6s;
+    outline: none;
+}
+input[type=text]{
+    width: 265px;
+    padding: 12px 20px;
+    margin: 8.5px 0;
+    box-sizing: border-box;
+    border: 2px solid #996633;
+    border-radius: 10px;
     -webkit-transition: 0.5s;
     transition: 0.6s;
     outline: none;
@@ -121,13 +136,13 @@ input[type=text]:focus {
     border: 3px solid #F00000;
 }
 button[type=submit] {
-    width: 35%;
+    width: 265px;
     background-color: #FF3300;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
     border: none;
-    border-radius: 4px;
+    border-radius: 10px;
     cursor: pointer;
 }
 .container{
@@ -137,13 +152,13 @@ button[type=submit] {
     background-color: #e3e3e3;
 }
 footer{
-    height: 247px;
-    width: 110%;
-    background-color: black;
     color: white;
     font-size: 16px;
     overflow: hidden;
     margin-top:30px;
+    background-color: #121212;
+    width: 100%;
+    height: 191px;
 }
 .introduce{
     background-color: black;
@@ -174,4 +189,7 @@ footer{
 }
 .contact ul{
     list-style: none;
+}
+.formdk{
+    margin-left: 1165px;
 }

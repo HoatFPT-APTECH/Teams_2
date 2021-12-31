@@ -1,46 +1,11 @@
 *{
-    padding:0;
-    margin: 0;
-    box-sizing: border-box;
+    padding: 10px;
 }
 h1{
     text-align: center;
     font-size: 30px;
     font-weight: 500;
     height: 1.25px;
-}
-.container{
-    margin: 0 auto;
-    float: none;
-    width: 1300px;
-    padding: 0;
-    box-sizing: border-box;
-}
-li{
-    list-style: none;
-    float: left;
-}
-.section{
-    width: 100%;
-    float: left;
-}
-.header{
-    background-color: black;
-    width: 100%;
-    height: 70px;
-}
-.logo{
-    float: left;
-
-    margin-top: 0;
-}
-.nav{
-    padding: 0;
-    float: right;
-}
-.nav ul li {
-    line-height: 70px;
-    margin-right: 20px;
 }
 .year{
     font-size: 50px;
@@ -62,13 +27,6 @@ li{
     bottom: -1100px;
     text-indent: 30px;
     display: flex;
-}
-.his{
-    width: 410px;
-    height: 170px;
-    position: relative;
-    right: -50px;
-    margin-top: 0;
 }
 .his-1{
     font-size: 18px;
@@ -93,7 +51,7 @@ li{
     width: 50%;
     position: relative;
     bottom: -1230px;
-    right: -150px;
+    right: -120px;
     float: right;
     text-align: left;
 }
@@ -121,7 +79,7 @@ li{
 }
 .icon-3{
     position: relative;
-    right: -279px;
+    right: -50px;
     top: -50px;
 
 }
@@ -140,7 +98,7 @@ li{
     height: 1.25px;
     display: flex;
     position: relative;
-    bottom: -580px;
+    bottom: -650px;
 }
 .icon-4{
     position: relative;
@@ -176,12 +134,6 @@ li{
     position: relative;
     top: -90px;
     right: -50px;
-    width: 483px;
-    height: 231px;
-}
-.icon-5 img{
-    position: relative;
-    right: -200px;
 }
 .content-6 {
     font-size: 18px;
@@ -226,90 +178,4 @@ li{
     position: relative;
     top: -80px;
     right: -70px;
-}
-.main{
-    height: 2237px;
-}
-.main8{
-    background-image: url("https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/footer-top-img-1.jpg");
-    height: 680px;
-    width: 100%;
-    margin-top: 50px;
-}
-.main8 .address{
-    height: 70%;
-    width: 670px;
-    text-align: center;
-    margin: 30px auto;
-}
-.address form{
-    margin-top: 30px;
-}
-.address .email{
-    background:transparent;
-    color: #fff;
-    font-size: 14px;
-    width: 230px;
-    height: 43px;
-    position: relative;
-    left: 5px;
-    top:-10px;
-    border: 1px solid white;
-}
-footer img{
-    background-size: cover;
-}
-.right{
-    float: right;
-}
-
-footer img{
-    background-size: cover;
-}
-.right{
-    float: right;
-}
-footer{
-    height: 247px;
-    width: 100%;
-    background-color: #121212;
-    color: white;
-    font-size: 16px;
-    overflow: hidden;
-}
-footer a{
-    color: white;
-    text-decoration: none;
-}
-.introduce_footer{
-    background-color: #121212;
-    padding-left: 50px;
-    width: 30%;
-    height: 100%;
-    float: left;
-    margin-top: 30px;
-}
-.introduce_footer ul{
-    list-style: none;
-}
-.introduce_footer li{
-    padding-bottom: 9px;
-    float: none;
-}
-.address_footer p{
-    color: white;
-    line-height: 1.5;
-}
-.hotline_footer p{
-    color: white;
-    padding-left: 3px;
-}
-.hotline_footer p img{
-    padding-right: 5px;
-}
-.contact_foot{
-    background-color:#121212;
-}
-.contact_foot ul{
-    list-style: none;
 }

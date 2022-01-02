@@ -67,6 +67,25 @@ li{
 .nav ul li{
   float: left;
    padding-left: 40px;
+    position: relative;
+}
+.subMenu{
+    width: 183px;
+    background-color: black;
+    position: absolute;
+    top: 30px;
+    line-height: 1.5;
+    right:-60px;
+    text-align:left;
+    display: none;
+}
+.nav ul li.active .subMenu{
+    display: block;
+    padding:0;
+}
+.block ul li{
+    float: none;
+
 }
 .slide{
     z-index:1;

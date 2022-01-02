@@ -29,3 +29,9 @@ function mo(a){
     }
 
 }
+function ON(a){
+    a.classList.add('active')
+}
+function OFF(a){
+    a.classList.remove("active")
+}

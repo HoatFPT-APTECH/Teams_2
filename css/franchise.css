@@ -2,7 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family: 'Marcellus', serif;
+    font-family: 'Cormorant', serif;
 }
 a{
     text-decoration: none;
@@ -15,10 +15,80 @@ a{
     height: auto;
     z-index: 2;
 }
-header{
+.section{
+    float: left;
+    width: 100%;
+}
+.container{
+    margin: 0 auto;
+    float: none;
+    width: 1300px;
+}
+li{
+    list-style: none;
+    float: left;
+}
+.header{
     width: 100%;
     height: 100%;
     font-weight: bold;
+}
+.header .history{
+    width: 308px;
+    height: 80px;
+    background: none;
+    border: 2px solid white;
+    color: white;
+    position: relative;
+    z-index: 99;
+    left: 1150px;
+    top: -427px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+    box-shadow: 5px 5px 10px gray;
+}
+.header .history:hover{
+    background-color: chocolate;
+}
+.logo{
+    width: 141px;
+    height:66px;
+    float: left;
+    padding-left: 30px;
+    z-index: 2;
+    position: relative;
+}
+.nav{
+    width: 800px;
+    height: 40px;
+    float: right;
+    padding-top: 40px;
+    position: relative;
+    z-index: 2;
+}
+.nav ul li{
+    float: left;
+    padding-left: 40px;
+    position: relative;
+}
+.subMenu{
+    width: 183px;
+    background-color: #121212;
+    position: absolute;
+    top: 30px;
+    line-height: 1.5;
+    right:-60px;
+    text-align:left;
+    display: none;
+}
+.nav ul li.active .subMenu{
+    display: block;
+    padding:0;
+}
+.block ul li{
+    float: none;
+
 }
 .logo{
     width: 141px;
@@ -98,8 +168,8 @@ body {
     font-weight: 400;
     line-height: 1.25;
     text-align: left;
-    background-color: beige;
-    background-image: url("../images/nentrangcon.jpg");
+    background-color: black;
+    background-image: url("../images/NEW/h1-bacground-img-2.jpg");
     background-size: cover;
 }
 h2 ,p{
@@ -160,18 +230,23 @@ footer{
     width: 100%;
     height: 191px;
 }
-.introduce{
-    background-color: black;
+footer a{
+    color: white;
+}
+.introduce_footer{
+    background-color: #121212;
     padding-left: 50px;
-    width: 25%;
+    width: 30%;
     height: 100%;
     float: left;
+    margin-top: 30px;
 }
-.introduce ul{
+.introduce_footer ul{
     list-style: none;
 }
-.introduce li{
+.introduce_footer li{
     padding-bottom: 9px;
+    float: none;
 }
 .address_footer p{
     color: white;
@@ -184,11 +259,14 @@ footer{
 .hotline_footer p img{
     padding-right: 5px;
 }
-.contact{
-    background-color: black;
+.contact_foot{
+    background-color:#121212;
 }
-.contact ul{
+.contact_foot ul{
     list-style: none;
+}
+.footer_title{
+    color: white;
 }
 .formdk{
     margin-left: 1165px;

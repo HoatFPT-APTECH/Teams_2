@@ -134,7 +134,7 @@ figcaption {
 }
 .sidebar{
     margin-top: 90px;
-    transform: translate(0px,0px);
+    transform: translate(-130px,0px);
 }
 .rightbar{
     width: 350px;
@@ -163,7 +163,7 @@ h3{
     width: 100%;
 }
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: "Cormorant", sans-serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 1.25;
@@ -192,7 +192,7 @@ input[type=text]{
     outline: none;
 }
 input[type=text]{
-    width: 265px;
+    width: 350px;
     padding: 12px 20px;
     margin: 8.5px 0;
     box-sizing: border-box;
@@ -206,7 +206,7 @@ input[type=text]:focus {
     border: 3px solid #F00000;
 }
 button[type=submit] {
-    width: 265px;
+    width: 350px;
     background-color: #FF3300;
     color: white;
     padding: 14px 20px;
@@ -269,5 +269,6 @@ footer a{
     color: white;
 }
 .formdk{
-    margin-left: 1165px;
+    margin-left: 400px;
+    margin-top:-300px;
 }

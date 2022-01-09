@@ -1,5 +1,6 @@
 *{
     padding: 10px;
+    font-family: 'Moon Dance', cursive;
 }
 *{
     margin: 0;
@@ -65,7 +66,11 @@ li{
 }
 .tit{
     font-weight: 700;
-    font-size: 50px;
+    font-size: 60px;
+    margin-right: -50px;
+}
+.bgr img{
+    max-width: 100%;
 }
 
 h1{
@@ -100,7 +105,7 @@ h1{
     left: 50px;
 }
 .his-1{
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 300;
     box-sizing: border-box;
     border-radius: 5px;
@@ -115,7 +120,7 @@ h1{
     bottom: -100px;
 }
 .his-2{
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 300;
     box-sizing: border-box;
     border-radius: 5px ;
@@ -141,7 +146,7 @@ h1{
 }
 .content-3{
     font-weight: 300;
-    font-size: 18px;
+    font-size: 20px;
     text-indent: 30px;
     height: 1.25px;
     display: flex;
@@ -164,7 +169,7 @@ h1{
     left: 180px;
 }
 .content-4{
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 300;
     text-indent: 30px;
     height: 1.25px;
@@ -185,7 +190,7 @@ h1{
     right: -220px;
 }
 .content-5 {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 300;
     text-indent: 30px;
     height: 1.25px;
@@ -208,7 +213,7 @@ h1{
     right: -100px;
 }
 .content-6 {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 300;
     text-indent: 30px;
     height: 1.25px;
@@ -229,7 +234,7 @@ h1{
     right: -200px;
 }
 .content-7 {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 300;
     text-indent: 30px;
     height: 1.25px;

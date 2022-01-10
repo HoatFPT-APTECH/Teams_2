@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="8846f9a2-a583-4175-9329-1ea637ee9800" name="Changes" comment="update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HOME_NEW.html" beforeDir="false" afterPath="$PROJECT_DIR$/HOME_NEW.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webdangnhap.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,13 +43,16 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../HoatAngular" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8371cb61-2ae9-4fb3-8266-4dcc70f6059b" name="Changes" comment="" />
+      <changelist id="8846f9a2-a583-4175-9329-1ea637ee9800" name="Changes" comment="update" />
       <created>1639885749978</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -85,6 +90,8 @@
       <workItem from="1641388817085" duration="244000" />
       <workItem from="1641389308952" duration="1233000" />
       <workItem from="1641542022197" duration="16000" />
+      <workItem from="1641801679163" duration="229000" />
+      <workItem from="1641801918226" duration="2499000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <created>1639886023543</created>

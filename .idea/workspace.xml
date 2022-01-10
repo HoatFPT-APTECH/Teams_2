@@ -4,7 +4,6 @@
     <list default="true" id="8846f9a2-a583-4175-9329-1ea637ee9800" name="Changes" comment="update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HOME_NEW.html" beforeDir="false" afterPath="$PROJECT_DIR$/HOME_NEW.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webdangnhap.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +46,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8371cb61-2ae9-4fb3-8266-4dcc70f6059b" name="Changes" comment="" />
+      <changelist id="8846f9a2-a583-4175-9329-1ea637ee9800" name="Changes" comment="update" />
       <created>1639885749978</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -85,6 +84,8 @@
       <workItem from="1641388817085" duration="244000" />
       <workItem from="1641389308952" duration="1233000" />
       <workItem from="1641542022197" duration="16000" />
+      <workItem from="1641801582421" duration="110000" />
+      <workItem from="1641801748747" duration="1386000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <created>1639886023543</created>
@@ -240,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641125547294</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="update">
+      <created>1641801275037</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1641801275037</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,6 +269,7 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
 </project>
